@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.jurara.myapplication.Main2Activity"
+    tools:showIn="@layout/app_bar_main2">
+    <FrameLayout
+
+        android:id="@+id/layin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/des1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Instrucciones"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/des2"
+                android:layout_width="360dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="1.- \tEn la parte superior del menu seleccione el tipo de PC ó celular a crear. "
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textAlignment="gravity"
+                android:gravity="fill_horizontal"
+                 />
+
+            <TextView
+                android:id="@+id/des3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2.- \tSeleccione todos los programas que cree utilizar en la PC ó Celular."
+                android:textColor="#000"
+                android:textAlignment="gravity"
+                android:gravity="fill_horizontal"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/des4"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.- \tPrescione Cocinar."
+                android:textAlignment="gravity"
+                android:gravity="fill_horizontal"
+                android:textColor="#000"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,209 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context="com.example.jurara.myapplication.Celular">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <!-- Content here -->
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:src="@drawable/fotocelular"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Redes Sociales" />
+
+            <CheckBox
+                android:id="@+id/facebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Facebook" />
+
+
+            <CheckBox
+                android:id="@+id/messenger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Messenger" />
+
+            <CheckBox
+                android:id="@+id/whatsapp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Whatsapp" />
+
+            <CheckBox
+                android:id="@+id/instagram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Instagram" />
+
+            <CheckBox
+                android:id="@+id/snapchat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Snapchat" />
+            <!--$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$OFICINA$$$$$$$$$$$$$$$$$-->
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Oficina" />
+
+            <CheckBox
+                android:id="@+id/officesuite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="OfficeSuite + PDF Editor (Incorpora word, excel y power point)" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Filtros de Imagen" />
+
+            <CheckBox
+                android:id="@+id/boomerang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Boomerang" />
+
+            <CheckBox
+                android:id="@+id/aviary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Aviary" />
+
+            <CheckBox
+                android:id="@+id/afterlight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Afterlight" />
+            <CheckBox
+                android:id="@+id/snapseed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Snapseed" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="reproductores de musica" />
+            <CheckBox
+                android:id="@+id/poweramp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Poweramp" />
+            <CheckBox
+                android:id="@+id/predeterminado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Predeterminado" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Apps de Matematicas Y Graficadoras" />
+
+            <CheckBox
+                android:id="@+id/desmos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Desmos" />
+
+            <CheckBox
+                android:id="@+id/geogebra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="GeoGebra" />
+
+            <CheckBox
+            android:id="@+id/mathally"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="MathAlly Calculadora Gráfica" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Otros" />
+
+            <CheckBox
+                android:id="@+id/carrera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="su carrera es ISC?" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sistema Op:"/>
+            <AutoCompleteTextView
+                android:id="@+id/so"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/miarr"
+                />
+            </LinearLayout>
+
+
+
+
+
+            <Button
+                android:id="@+id/generarcel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Cocinar celular" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

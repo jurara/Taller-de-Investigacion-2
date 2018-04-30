@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context="com.example.jurara.myapplication.Acercade">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/tec"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Instituto Tecnologico de Tepic"
+                android:textAlignment="center"
+                android:textColor="#ac501b"
+                android:textSize="30dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Materia: Taller de Inv. 2"
+                android:textAlignment="center"
+                android:textColor="#ac501b"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Docente: Maritza Ramírez Llamas"
+                android:textAlignment="center"
+                android:textColor="#ac501b"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Alumnos:\nJuan Ramón Ramírez García\nJuan Antonio Mejia Peña\nGiovanni"
+                android:textAlignment="center"
+                android:textColor="#ac501b"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

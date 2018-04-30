@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Celular">
+            <menu>
+
+                <item
+                    android:id="@+id/menucelular"
+                    android:icon="@drawable/iconocelular"
+                    android:title="Celular"/>
+
+
+            </menu>
+        </item>
+
+        <item android:title="PC">
+            <menu>
+
+                <item
+                    android:id="@+id/menudiseno"
+                    android:icon="@drawable/iconodeseno"
+                    android:title="Diseño"/>
+
+                <item
+                    android:id="@+id/menuoficina"
+                    android:icon="@drawable/icinooficina"
+                    android:title="Oficina"/>
+
+                <item
+                    android:id="@+id/menuprogramacion"
+                    android:icon="@drawable/icocomando"
+                    android:title="Programacion"/>
+
+                <item
+                    android:id="@+id/menuacercade"
+                    android:icon="@drawable/iconoacercade"
+                    android:title="Acerca de..."/>
+            </menu>
+        </item>
+
+    </group>
+
+
+
+    <item android:title="Consejos">
+        <menu>
+            <item
+                android:id="@+id/menuconsejo"
+                android:icon="@drawable/iconoacercade"
+                android:title="Ir a Consejos" />
+
+        </menu>
+    </item>
+
+</menu>
