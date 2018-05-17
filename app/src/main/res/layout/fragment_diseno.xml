@@ -22,74 +22,102 @@
                 android:layout_gravity="center"
                 android:src="@drawable/fotodiseno" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Video" />
 
             <CheckBox
+                android:id="@+id/officefive"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Facebook" />
+                android:text="Office 365" />
 
             <CheckBox
+                android:id="@+id/officesix"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Messenger" />
+                android:text="Office 2016" />
 
             <CheckBox
+                android:id="@+id/chrome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Whatsapp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Fotos" />
+                android:text="Chrome" />
 
             <CheckBox
+                android:id="@+id/firefox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Facebook" />
+                android:text="Firefox" />
 
             <CheckBox
+                android:id="@+id/safari"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Messenger" />
+                android:text="Safari" />
 
             <CheckBox
+                android:id="@+id/autocad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Whatsapp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Audio" />
+                android:text="Autocad" />
 
             <CheckBox
+                android:id="@+id/solid"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Facebook" />
+                android:text="Solid Works" />
 
             <CheckBox
+                android:id="@+id/civil"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Messenger" />
+                android:text="CivilCAD" />
 
             <CheckBox
+                android:id="@+id/wmp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Whatsapp" />
+                android:text="Windows Media Player 11" />
+
+            <CheckBox
+                android:id="@+id/itunes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="iTunes" />
+
+            <CheckBox
+                android:id="@+id/vlc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="VLC" />
+
+
+
+            <CheckBox
+                android:id="@+id/coreldraw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Corel Draw" />
+
+
+
+
+
+
+
+
+
+
 
             <Button
                 android:layout_width="wrap_content"

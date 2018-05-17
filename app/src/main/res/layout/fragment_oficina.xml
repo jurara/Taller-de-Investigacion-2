@@ -22,80 +22,84 @@
                 android:layout_gravity="center"
                 android:src="@drawable/fotooficina" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Video" />
+
+
 
             <CheckBox
+                android:id="@+id/officefiveo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Facebook" />
+                android:text="Office 365" />
 
             <CheckBox
+                android:id="@+id/officesixo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Messenger" />
+                android:text="Office 2016" />
 
             <CheckBox
+                android:id="@+id/chromeo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Whatsapp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Fotos" />
+                android:text="Chrome" />
 
             <CheckBox
+                android:id="@+id/firefoxo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Facebook" />
+                android:text="Firefox" />
 
             <CheckBox
+                android:id="@+id/safario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Messenger" />
+                android:text="Safari" />
+
+
+
+
+
+
 
             <CheckBox
+                android:id="@+id/wmpo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Whatsapp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Audio" />
+                android:text="Windows Media Player 11" />
 
             <CheckBox
+                android:id="@+id/ituneso"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Facebook" />
+                android:text="iTunes" />
 
             <CheckBox
+                android:id="@+id/vlco"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Messenger" />
+                android:text="VLC" />
 
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:text="Whatsapp" />
+
+
+
+
+
+
+
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Cocinar PC para Oficina"
+                android:text="Cocinar PC para Diseño"
                 android:id="@+id/generarpcoficina"
                 />
         </LinearLayout>

@@ -22,74 +22,159 @@
                 android:layout_gravity="center"
                 android:src="@drawable/fotoprogramacion" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Video" />
-
             <CheckBox
+                android:id="@+id/officefivep"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Facebook" />
+                android:text="Office 365" />
 
             <CheckBox
+                android:id="@+id/officesixp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Messenger" />
+                android:text="Office 2016" />
 
             <CheckBox
+                android:id="@+id/chromep"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Whatsapp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Fotos" />
+                android:text="Chrome" />
 
             <CheckBox
+                android:id="@+id/firefoxp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Facebook" />
+                android:text="Firefox" />
 
             <CheckBox
+                android:id="@+id/safarip"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Messenger" />
+                android:text="Safari" />
 
             <CheckBox
+                android:id="@+id/autocadp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Whatsapp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Audio" />
+                android:text="Autocad" />
 
             <CheckBox
+                android:id="@+id/solidp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Facebook" />
+                android:text="Solid Works" />
 
             <CheckBox
+                android:id="@+id/civilp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Messenger" />
+                android:text="CivilCAD" />
 
             <CheckBox
+                android:id="@+id/wmpp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Whatsapp" />
+                android:text="Windows Media Player 11" />
+
+            <CheckBox
+                android:id="@+id/itunesp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="iTunes" />
+
+            <CheckBox
+                android:id="@+id/vlcp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="VLC" />
+
+            <CheckBox
+                android:id="@+id/matlabp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Matlab" />
+
+            <CheckBox
+                android:id="@+id/coreldrawp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Corel Draw" />
+
+            <CheckBox
+                android:id="@+id/proteusp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Proteus 8" />
+
+            <CheckBox
+                android:id="@+id/circuitmakerp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="CircuitMaker" />
+
+            <CheckBox
+                android:id="@+id/autodeskp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Autodesk" />
+
+            <CheckBox
+                android:id="@+id/androidstudiop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Android Studio" />
+
+            <CheckBox
+                android:id="@+id/wampp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="WAMP Server" />
+
+            <CheckBox
+                android:id="@+id/xamppp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="XAMPP Server" />
+
+            <CheckBox
+                android:id="@+id/sqlserverp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="SQL Server" />
+
+            <CheckBox
+                android:id="@+id/netbeansp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="NetBeans IDE" />
+
+            <CheckBox
+                android:id="@+id/visualstudiop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Visual Studio" />
 
             <Button
                 android:id="@+id/generarpcprogramacion"

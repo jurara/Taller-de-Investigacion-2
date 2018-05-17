@@ -161,6 +161,20 @@
             android:layout_marginTop="5dp"
             android:text="MathAlly Calculadora Gráfica" />
 
+            <CheckBox
+                android:id="@+id/photomat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Photomath" />
+
+
+            <CheckBox
+                android:id="@+id/wolf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Wolfram Alpha" />
 
 
             <TextView
@@ -174,20 +188,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="su carrera es ISC?" />
+                android:text="su carrera es ISC ó ITICS?" />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
                 android:orientation="horizontal">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sistema Op:"/>
+                    android:text="Version de Android \nque le gustaria tener?"/>
             <AutoCompleteTextView
                 android:id="@+id/so"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/miarr"
+                android:inputType="textPersonName"
                 />
             </LinearLayout>
 

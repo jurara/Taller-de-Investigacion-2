@@ -21,7 +21,7 @@ import java.util.Vector;
 
 public class Celular extends Fragment {
     int c=0,indicadorpar=0;
-    CheckBox carrera,facebook,messenger,whatsapp,instagram,snapchat,officesuite,boomerang,aviary,afterlight,snapseed,poweramp,predeterminado,desmos,geogebra,mathally;
+    CheckBox wolf,photomat,carrera,facebook,messenger,whatsapp,instagram,snapchat,officesuite,boomerang,aviary,afterlight,snapseed,poweramp,predeterminado,desmos,geogebra,mathally;
     AutoCompleteTextView so;
 
 
@@ -34,11 +34,12 @@ public class Celular extends Fragment {
             "Android 5.x.x",
             "Android 6.x.x",
             "Android 7.x.x",
-            "Android 8.x.x"
+            "Android 8.x.x",
+            "Ios"
     };
     Button btn;
     float sumaalmacen=0;
-    String indicadorram="",indicadorprocesador="",indicadordiscoduro="",indicadorgraficos="",datos="";
+    String indicadorram="",indicadorprocesador="",indicadordiscoduro="",indicadorgraficos="";
     String so2="";
     public Celular() {
         // Required empty public constructor
@@ -71,6 +72,8 @@ public class Celular extends Fragment {
         mathally=v.findViewById(R.id.mathally);
         carrera=v.findViewById(R.id.carrera);
         so=v.findViewById(R.id.so);
+        wolf=v.findViewById(R.id.wolf);
+        photomat=v.findViewById(R.id.photomat);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(),
                 android.R.layout.simple_dropdown_item_1line, COUNTRIES);
@@ -94,6 +97,7 @@ public class Celular extends Fragment {
         //la ram es dato simulado y se agrega con v.add(valor de la ram);
         //falta ver datos acerca del procesador de un celular
         //
+        String datos="";
         Vector v=new Vector();
         Vector vecpro=new Vector();
 
@@ -102,28 +106,27 @@ public class Celular extends Fragment {
 
         if(facebook.isChecked()){
             sumaalmacen+=72.73;
-            v.add(50);
+            v.add(127);
             vecpro.add(1);
         }
         if(messenger.isChecked()){
-            sumaalmacen+=60.66;
+            sumaalmacen+=69;
             v.add(40);
             vecpro.add(1);
         }
         if(whatsapp.isChecked()){
             sumaalmacen+=26.7;
-            datos+="Usted selecciono Whatsapp y esta app en el caso de android solo esta disponible para Android superior a 2.3.3\n";
-            v.add(30);
+            v.add(39);
             vecpro.add(1);
         }
         if(instagram.isChecked()){
             sumaalmacen+=18.99;
-            v.add(10);
+            v.add(14);
             vecpro.add(1);
         }
         if(snapchat.isChecked()){
             sumaalmacen+=71.99;
-            v.add(10);
+            v.add(3.7);
             vecpro.add(1);
         }
         if(officesuite.isChecked()){
@@ -132,13 +135,13 @@ public class Celular extends Fragment {
             vecpro.add(1);
         }
         if(boomerang.isChecked()){
-            sumaalmacen+=2.26;
+            sumaalmacen+=8.59;
             v.add(10);
             vecpro.add(1);
         }
         if(aviary.isChecked()){
             sumaalmacen+=22;
-            v.add(10);
+            v.add(1.2);
             vecpro.add(1);
         }
         if(afterlight.isChecked()){
@@ -162,17 +165,29 @@ public class Celular extends Fragment {
             vecpro.add(1);
         }
         if(desmos.isChecked()){
-            sumaalmacen+=2.18;
+            sumaalmacen+=2.23;
             v.add(10);
             vecpro.add(1);
         }
         if(geogebra.isChecked()){
             sumaalmacen+=19.06;
-            v.add(10);
+            v.add(1.6);
             vecpro.add(1);
         }
         if(mathally.isChecked()){
             sumaalmacen+=4.36;
+            v.add(10);
+            vecpro.add(1);
+        }
+
+        if(photomat.isChecked()){
+            sumaalmacen+=11.66;
+            v.add(1.3);
+            vecpro.add(1);
+        }
+
+        if(wolf.isChecked()){
+            sumaalmacen+=26;
             v.add(10);
             vecpro.add(1);
         }
@@ -203,6 +218,11 @@ public class Celular extends Fragment {
                 break;
             case "Android 8.x.x":
                 v.add(773);
+                break;
+
+            case "IOS":
+                v.add(773);
+                datos+="\nPuede que muchas de las app que selecciono no se encuentren en IOS";
                 break;
 
         }
